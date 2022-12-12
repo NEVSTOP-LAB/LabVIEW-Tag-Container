@@ -11,6 +11,8 @@ on:
     types: [closed]
 
   push:
+    paths-ignore:
+      - '**.md'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -32,21 +34,28 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-
       # Runs a set of commands using the runners shell
       - name: BuildDailyVIP
         id: build-vip
-        uses: NEVSTOP-LAB/lvCICD-vipm-BuildViPackage@main
+        uses: LV-APT/lvCICD@main
         with:
           LabVIEW_Version: 2017
-          VipbPath: ${{ github.workspace }}
+          Operation: vipm_BuildDailyVIP
+          Parameter1: ${{ github.workspace }}
+          Parameter2: NO
+
+      - id: vip-name
+        run:
+          $vipName=Split-Path -Path ${{ steps.build-vip.outputs.Result }} -Leaf;
+          Write-Host "::set-output name=vipName::"$vipName""
+        shell: powershell
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.0.0
         with:
           # Artifact name
-          name: ${{ steps.build-vip.outputs.vipName }}
-          path: ${{ steps.build-vip.outputs.vipPathName }}
+          name: ${{ steps.vip-name.outputs.vipName }}
+          path: ${{ steps.build-vip.outputs.Result }}
           # The desired behavior if no files are found using the provided path.
           if-no-files-found: warn
           retention-days: 90
@@ -63,4 +72,3 @@ jobs:
           secure: false
           server_dir: /${{ env.CI_REPOSITORY_OWNER_SLUG }}/${{ env.CI_REPOSITORY_NAME }}/${{ env.CI_ACTION_REF_NAME }}/
           local_dir: ./vip/
-
