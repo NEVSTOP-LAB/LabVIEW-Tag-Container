@@ -19,9 +19,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="TagContainer" Type="Folder">
-			<Item Name="TagContainer.lvlib" Type="Library" URL="../TagContainer/TagContainer.lvlib"/>
-		</Item>
+		<Item Name="TagContainer" Type="Folder"/>
+		<Item Name="TagContainer.lvlib" Type="Library" URL="../TagContainer/TagContainer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
