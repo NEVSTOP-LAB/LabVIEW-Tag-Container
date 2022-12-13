@@ -37,7 +37,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: BuildDailyVIP
         id: build-vip
-        uses: NEVSTOP-LAB/lvCICD-vipm-BuildViPackage@main
+        uses: NEVSTOP-LAB/vipm-BuildViPackage@main
         with:
           LabVIEW_Version: 2017
           VipbPath: ${{ github.workspace }}
