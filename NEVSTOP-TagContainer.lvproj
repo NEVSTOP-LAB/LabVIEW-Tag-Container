@@ -20,12 +20,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="TagContainer" Type="Folder">
-			<Item Name="__TEST" Type="Folder"/>
-			<Item Name="_Support" Type="Folder"/>
-			<Item Name="API" Type="Folder"/>
-			<Item Name="Documentation" Type="Folder"/>
-			<Item Name="Typedef" Type="Folder"/>
-			<Item Name="dir.mnu" Type="Document" URL="../TagContainer/dir.mnu"/>
 			<Item Name="TagContainer.lvlib" Type="Library" URL="../TagContainer/TagContainer.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
