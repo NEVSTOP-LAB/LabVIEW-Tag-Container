@@ -32,9 +32,6 @@ TagContainer-Write.vim: 写入 Tag</Property>
 		<Item Name="_Ref To DVR.vi" Type="VI" URL="../_Support/_Ref To DVR.vi"/>
 		<Item Name="_NameCacher.vi" Type="VI" URL="../_Support/_NameCacher.vi"/>
 	</Item>
-	<Item Name="Documentation" Type="Folder">
-		<Item Name="Documentation.vi" Type="VI" URL="../Documentation/Documentation.vi"/>
-	</Item>
 	<Item Name="API" Type="Folder">
 		<Item Name="Template" Type="Folder">
 			<Item Name="TagContainer-Template.vit" Type="VI" URL="../API/_template/TagContainer-Template.vit"/>
@@ -49,7 +46,7 @@ TagContainer-Write.vim: 写入 Tag</Property>
 		<Item Name="TagContainer-Free.vi" Type="VI" URL="../API/TagContainer-Free.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
-		<Item Name="tagcontainer-data.ctl" Type="VI" URL="../_Support/tagcontainer-data.ctl"/>
+		<Item Name="tagcontainer-data.ctl" Type="VI" URL="../Typedef/tagcontainer-data.ctl"/>
 		<Item Name="TagContainer.ctl" Type="VI" URL="../Typedef/TagContainer.ctl"/>
 	</Item>
 	<Item Name="_TEST" Type="Folder">
