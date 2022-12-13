@@ -29,8 +29,8 @@ TagContainer-Write.vim: 写入 Tag</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Support" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="TagContainerRef To DVR.vi" Type="VI" URL="../_Support/TagContainerRef To DVR.vi"/>
-		<Item Name="TagContainerNameCacher.vi" Type="VI" URL="../_Support/TagContainerNameCacher.vi"/>
+		<Item Name="_Ref To DVR.vi" Type="VI" URL="../_Support/_Ref To DVR.vi"/>
+		<Item Name="_NameCacher.vi" Type="VI" URL="../_Support/_NameCacher.vi"/>
 	</Item>
 	<Item Name="Documentation" Type="Folder">
 		<Item Name="Documentation.vi" Type="VI" URL="../Documentation/Documentation.vi"/>
