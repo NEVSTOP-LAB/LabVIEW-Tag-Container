@@ -31,6 +31,7 @@ TagContainer-Write.vim: 写入 Tag</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="_Ref To DVR.vi" Type="VI" URL="../_Support/_Ref To DVR.vi"/>
 		<Item Name="_NameCacher.vi" Type="VI" URL="../_Support/_NameCacher.vi"/>
+		<Item Name="_datatypeChecker.vi" Type="VI" URL="../_Support/_datatypeChecker.vi"/>
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Item Name="Template" Type="Folder">
