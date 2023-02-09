@@ -37,14 +37,14 @@ TagContainer-Write.vim: 写入 Tag</Property>
 		<Item Name="Template" Type="Folder">
 			<Item Name="TagContainer-Template.vit" Type="VI" URL="../API/_template/TagContainer-Template.vit"/>
 		</Item>
-		<Item Name="TagContainer-New.vi" Type="VI" URL="../API/TagContainer-New.vi"/>
+		<Item Name="TagContainer-New.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagContainer/API/TagContainer-New.vi"/>
 		<Item Name="TagContainer-IsValid.vi" Type="VI" URL="../API/TagContainer-IsValid.vi"/>
 		<Item Name="TagContainer-List.vi" Type="VI" URL="../API/TagContainer-List.vi"/>
-		<Item Name="TagContainer-Write.vim" Type="VI" URL="../API/TagContainer-Write.vim"/>
-		<Item Name="TagContainer-Read.vim" Type="VI" URL="../API/TagContainer-Read.vim"/>
+		<Item Name="TagContainer-Write.vim" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagContainer/API/TagContainer-Write.vim"/>
+		<Item Name="TagContainer-Read.vim" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagContainer/API/TagContainer-Read.vim"/>
 		<Item Name="TagContainer-ReadAsVariant.vi" Type="VI" URL="../API/TagContainer-ReadAsVariant.vi"/>
 		<Item Name="TagContainer-UpdateUI.vi" Type="VI" URL="../API/TagContainer-UpdateUI.vi"/>
-		<Item Name="TagContainer-Free.vi" Type="VI" URL="../API/TagContainer-Free.vi"/>
+		<Item Name="TagContainer-Free.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagContainer/API/TagContainer-Free.vi"/>
 	</Item>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="tagcontainer-data.ctl" Type="VI" URL="../Typedef/tagcontainer-data.ctl"/>
