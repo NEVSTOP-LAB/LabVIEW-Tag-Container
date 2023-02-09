@@ -48,13 +48,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="DataCNT-Write.vim" Type="VI" URL="../Data Container Folder/API/DataCNT-Write.vim"/>
-			<Item Name="Def-DataCNT.ctl" Type="VI" URL="../Data Container Folder/TypeDef/Def-DataCNT.ctl"/>
-			<Item Name="Def-DataCNT Ico.ctl" Type="VI" URL="../Data Container Folder/TypeDef/Def-DataCNT Ico.ctl"/>
-			<Item Name="Unflatten DataCNT to DVR.vi" Type="VI" URL="../Data Container Folder/Support/Unflatten DataCNT to DVR.vi"/>
-			<Item Name="DataCNT-Read.vim" Type="VI" URL="../Data Container Folder/API/DataCNT-Read.vim"/>
-			<Item Name="DataCNT-New.vi" Type="VI" URL="../Data Container Folder/API/DataCNT-New.vi"/>
-			<Item Name="DataCNT-Free.vi" Type="VI" URL="../Data Container Folder/API/DataCNT-Free.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
