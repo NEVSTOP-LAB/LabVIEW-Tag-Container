@@ -34,9 +34,6 @@ TagContainer-Write.vim: 写入 Tag</Property>
 		<Item Name="_datatypeChecker.vi" Type="VI" URL="../_Support/_datatypeChecker.vi"/>
 	</Item>
 	<Item Name="API" Type="Folder">
-		<Item Name="Template" Type="Folder">
-			<Item Name="TagContainer-Template.vit" Type="VI" URL="../API/_template/TagContainer-Template.vit"/>
-		</Item>
 		<Item Name="TagContainer-New.vi" Type="VI" URL="../API/TagContainer-New.vi"/>
 		<Item Name="TagContainer-IsValid.vi" Type="VI" URL="../API/TagContainer-IsValid.vi"/>
 		<Item Name="TagContainer-List.vi" Type="VI" URL="../API/TagContainer-List.vi"/>
