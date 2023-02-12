@@ -1,3 +1,4 @@
 *.lvlps
 *.aliases
 /vip/*
+/_benchmark/*.tdms_index
