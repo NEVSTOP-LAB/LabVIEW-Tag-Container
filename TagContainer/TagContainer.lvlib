@@ -37,9 +37,10 @@ TagContainer-Write.vim: 写入 Tag</Property>
 		<Item Name="TagContainer-New.vi" Type="VI" URL="../API/TagContainer-New.vi"/>
 		<Item Name="TagContainer-IsValid.vi" Type="VI" URL="../API/TagContainer-IsValid.vi"/>
 		<Item Name="TagContainer-List.vi" Type="VI" URL="../API/TagContainer-List.vi"/>
+		<Item Name="TagContainer-SetLock.vi" Type="VI" URL="../API/TagContainer-SetLock.vi"/>
 		<Item Name="TagContainer-Write.vim" Type="VI" URL="../API/TagContainer-Write.vim"/>
 		<Item Name="TagContainer-Read.vim" Type="VI" URL="../API/TagContainer-Read.vim"/>
-		<Item Name="TagContainer-ReadAsVariant.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagContainer/API/TagContainer-ReadAsVariant.vi"/>
+		<Item Name="TagContainer-ReadAsVariant.vi" Type="VI" URL="../API/TagContainer-ReadAsVariant.vi"/>
 		<Item Name="TagContainer-UpdateUI.vi" Type="VI" URL="../API/TagContainer-UpdateUI.vi"/>
 		<Item Name="TagContainer-Free.vi" Type="VI" URL="../API/TagContainer-Free.vi"/>
 	</Item>
