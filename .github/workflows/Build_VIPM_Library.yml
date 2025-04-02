@@ -29,7 +29,7 @@ jobs:
 
       # Get env variables
       # https://github.com/marketplace/actions/github-environment-variables-action
-      - uses: FranzDiebold/github-env-vars-action@v2
+      - uses: FranzDiebold/github-env-vars-action@v4
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
@@ -43,7 +43,7 @@ jobs:
           VipbPath: ${{ github.workspace }}
 
       - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v3.0.0
+        uses: actions/upload-artifact@v4.0.0
         with:
           # Artifact name
           name: ${{ steps.build-vip.outputs.vipName }}
