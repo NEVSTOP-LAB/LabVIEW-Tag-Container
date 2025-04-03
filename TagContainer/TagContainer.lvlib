@@ -52,7 +52,4 @@ TagContainer-Write.vim: 写入 Tag</Property>
 		<Item Name="tagcontainer-data.ctl" Type="VI" URL="../Typedef/tagcontainer-data.ctl"/>
 		<Item Name="TagContainer.ctl" Type="VI" URL="../Typedef/TagContainer.ctl"/>
 	</Item>
-	<Item Name="_TEST" Type="Folder">
-		<Item Name="TagContainer-TestMain.vi" Type="VI" URL="../__TEST/TagContainer-TestMain.vi"/>
-	</Item>
 </Library>
