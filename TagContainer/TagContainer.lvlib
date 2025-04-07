@@ -31,6 +31,7 @@ TagContainer-Write.vim: 写入 Tag</Property>
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="_Ref To DVR.vi" Type="VI" URL="../_Support/_Ref To DVR.vi"/>
 		<Item Name="_NameCacher.vi" Type="VI" URL="../_Support/_NameCacher.vi"/>
+		<Item Name="Data Changed - First Call Included_export nevstop.vim" Type="VI" URL="../_Support/Data Changed - First Call Included_export nevstop.vim"/>
 		<Item Name="_datatypeChecker.vi" Type="VI" URL="../_Support/_datatypeChecker.vi"/>
 	</Item>
 	<Item Name="API" Type="Folder">
@@ -41,6 +42,8 @@ TagContainer-Write.vim: 写入 Tag</Property>
 		<Item Name="TagContainer-SetLock.vi" Type="VI" URL="../API/TagContainer-SetLock.vi"/>
 		<Item Name="TagContainer-Write.vim" Type="VI" URL="../API/TagContainer-Write.vim"/>
 		<Item Name="TagContainer-Read.vim" Type="VI" URL="../API/TagContainer-Read.vim"/>
+		<Item Name="TagContainer-Delete.vi" Type="VI" URL="../API/TagContainer-Delete.vi"/>
+		<Item Name="TagContainer-Flush.vi" Type="VI" URL="../API/TagContainer-Flush.vi"/>
 		<Item Name="TagContainer-ReadAsVariant.vi" Type="VI" URL="../API/TagContainer-ReadAsVariant.vi"/>
 		<Item Name="TagContainer-UpdateUI.vi" Type="VI" URL="../API/TagContainer-UpdateUI.vi"/>
 		<Item Name="TagContainer-Free.vi" Type="VI" URL="../API/TagContainer-Free.vi"/>
@@ -48,8 +51,5 @@ TagContainer-Write.vim: 写入 Tag</Property>
 	<Item Name="Typedef" Type="Folder">
 		<Item Name="tagcontainer-data.ctl" Type="VI" URL="../Typedef/tagcontainer-data.ctl"/>
 		<Item Name="TagContainer.ctl" Type="VI" URL="../Typedef/TagContainer.ctl"/>
-	</Item>
-	<Item Name="_TEST" Type="Folder">
-		<Item Name="TagContainer-TestMain.vi" Type="VI" URL="../__TEST/TagContainer-TestMain.vi"/>
 	</Item>
 </Library>
